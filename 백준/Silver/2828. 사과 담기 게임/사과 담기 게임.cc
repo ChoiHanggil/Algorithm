@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <vector>
 #include <map>
@@ -29,7 +28,7 @@ int main()
         int apple;
         cin >> apple;
         int a = apple - 1;
-        if (start == a || end == a)
+        if (start >= a && end <= a)
         {
             continue;
         }
